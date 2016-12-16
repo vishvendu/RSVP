@@ -12,8 +12,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView MobileNoText = (TextView) findViewById(R.id.mobilenotext);
+        TextView TextDetails = (TextView) findViewById(R.id.mobilenodescription);
         Typeface face = Typeface.createFromAsset(getAssets(),
                 "fonts/sc_sans_app_thin.ttf");
         MobileNoText.setTypeface(face);
+        TextDetails.setTypeface(face);
     }
 }

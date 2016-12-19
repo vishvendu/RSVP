@@ -6,7 +6,12 @@
     android:background="@color/white"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="rsvp.vishvendu.com.rsvp.Onboarding.Module.Fragment.PersonalDetailsFragment">
-<LinearLayout
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
     android:layout_width="match_parent"
     android:background="#00AFF0"
     android:layout_height="match_parent"
@@ -20,17 +25,30 @@
         android:layout_above="@+id/llButtonLayout"
         android:layout_below="@+id/regLabelText"
         android:orientation="horizontal">
-
-        <EditText
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password"
             android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
             android:layout_weight="2"
             android:hint="First Name"
+            android:id="@+id/firstName"
             android:layout_height="wrap_content" />
-        <EditText
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/lastname"
             android:layout_width="0dp"
             android:layout_weight="2"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_weight="2"
             android:hint="Last Name"
+            android:id="@+id/lastName"
             android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
 
     </LinearLayout>
     <LinearLayout
@@ -42,12 +60,18 @@
         android:layout_above="@+id/llButtonLayout"
         android:layout_below="@+id/regLabelText"
         android:orientation="horizontal">
-
-        <EditText
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layoutage"
             android:layout_width="0dp"
             android:layout_weight="2"
-            android:hint="Age"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:hint="age"
+            android:id="@+id/Age"
             android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
         <RadioGroup
             android:layout_width="0dp"
             android:layout_weight="3"
@@ -76,13 +100,18 @@
         android:layout_above="@+id/llButtonLayout"
         android:layout_below="@+id/regLabelText"
         android:orientation="horizontal">
-
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layoutemailid"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
         <EditText
             android:layout_width="match_parent"
             android:layout_weight="2"
             android:hint="Email Id"
+            android:id="@+id/emailid"
             android:layout_height="wrap_content" />
-
+</android.support.design.widget.TextInputLayout>
 
     </LinearLayout>
     <LinearLayout
@@ -94,14 +123,19 @@
         android:layout_above="@+id/llButtonLayout"
         android:layout_below="@+id/regLabelText"
         android:orientation="horizontal">
-
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layoutmedicalcondition"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
         <EditText
             android:layout_width="match_parent"
             android:layout_weight="2"
+            android:id="@+id/medicalcondition"
             android:hint="Medical Condition"
             android:layout_height="wrap_content" />
 
-
+</android.support.design.widget.TextInputLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -112,13 +146,18 @@
         android:layout_above="@+id/llButtonLayout"
         android:layout_below="@+id/regLabelText"
         android:orientation="horizontal">
-
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layoutnoofpeople"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
         <EditText
             android:layout_width="match_parent"
             android:layout_weight="2"
             android:hint="No of people"
+            android:id="@+id/noofpeople"
             android:layout_height="wrap_content" />
-
+</android.support.design.widget.TextInputLayout>
 
     </LinearLayout>
     <LinearLayout
@@ -268,6 +307,32 @@
     </LinearLayout>
 
 
+
 </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextborder"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:layout_width="@dimen/common_0dp"
+                android:layout_height="@dimen/common_50dp"
+                android:background="@color/white"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="1"
+                android:id="@+id/addMore"
+                android:textSize="@dimen/resetpasscode_text_size"
+                android:text="Add More"/>
+            <Button
+                android:layout_width="@dimen/common_0dp"
+                android:layout_height="@dimen/common_50dp"
+                android:id="@+id/proceed"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:textSize="@dimen/resetpasscode_text_size"
+                android:text="Next"/>
+        </LinearLayout>
+    </RelativeLayout>
 </FrameLayout>

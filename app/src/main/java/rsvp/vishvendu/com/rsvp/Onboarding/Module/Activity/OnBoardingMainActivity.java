@@ -1,12 +1,13 @@
 package rsvp.vishvendu.com.rsvp.Onboarding.Module.Activity;
 
-import android.support.v4.app.FragmentManager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.widget.FrameLayout;
 
 import rsvp.vishvendu.com.rsvp.BaseActivity;
+import rsvp.vishvendu.com.rsvp.Onboarding.Module.Fragment.DocumentSubmit;
+import rsvp.vishvendu.com.rsvp.Onboarding.Module.Fragment.FlightBookingDetails;
 import rsvp.vishvendu.com.rsvp.Onboarding.Module.Fragment.PersonalDetailsFragment;
 import rsvp.vishvendu.com.rsvp.Onboarding.Module.Fragment.RegisterMobileNo;
 import rsvp.vishvendu.com.rsvp.R;
@@ -18,6 +19,8 @@ public class OnBoardingMainActivity extends BaseActivity {
     private FragmentManager fragmentManager;
     RegisterMobileNo registerMobileNo ;
     private PersonalDetailsFragment personalDetailsFragment;
+    private FlightBookingDetails flightBookingDetails;
+    private DocumentSubmit documentSubmit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +50,28 @@ public class OnBoardingMainActivity extends BaseActivity {
         Log.i("fragmentManager ", String.valueOf(fragmentManager));
         Log.i("container", String.valueOf(R.id.onboarding_container));
         FragmentManagerClass.inflateFragment(personalDetailsFragment,fragmentManager,R.id.onboarding_container,null);
+    }
+
+    public void initFlightBookingDetails(){
+
+        setToolBar(true, "Flight Details", OnBoardingMainActivity.this, Back.SET_BACK);
+        flightBookingDetails = new FlightBookingDetails();
+        Log.i("personal Details ", String.valueOf(personalDetailsFragment));
+        Log.i("fragmentManager ", String.valueOf(fragmentManager));
+        Log.i("container", String.valueOf(R.id.onboarding_container));
+        FragmentManagerClass.inflateFragment(flightBookingDetails,fragmentManager,R.id.onboarding_container,null);
+
+
+    }
+
+    public void initDocumentDetails(){
+
+        setToolBar(true, "Documents", OnBoardingMainActivity.this, Back.SET_BACK);
+        documentSubmit = new DocumentSubmit();
+        Log.i("documentSubmit ", String.valueOf(documentSubmit));
+        Log.i("fragmentManager ", String.valueOf(fragmentManager));
+        Log.i("container", String.valueOf(R.id.onboarding_container));
+        FragmentManagerClass.inflateFragment(documentSubmit,fragmentManager,R.id.onboarding_container,null);
     }
 
     @Override

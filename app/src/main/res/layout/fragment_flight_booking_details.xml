@@ -1,0 +1,360 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context="rsvp.vishvendu.com.rsvp.Onboarding.Module.Fragment.FlightBookingDetails">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#00AFF0"
+        android:layout_height="200dp"
+       >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:id="@+id/bookingbehalf"
+            android:layout_centerHorizontal="true"
+            android:text="Booking flighs on your behalf"
+            />
+
+
+
+            <rsvp.vishvendu.com.rsvp.Utils.SegmentedGroup
+                android:id="@+id/sqSmoking"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/rbMultipleTime"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/common_20dp"
+                android:layout_below="@+id/bookingbehalf"
+                segmentedgroup:sc_border_width="2dp"
+                segmentedgroup:sc_checked_text_color="@color/white"
+                segmentedgroup:sc_corner_radius="20dp"
+                segmentedgroup:sc_tint_color="@color/colorPrimaryDark"
+                segmentedgroup:sc_unchecked_tint_color="@color/white">
+
+                <RadioButton
+                    android:id="@+id/smoking"
+                    style="@style/RadioButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="One way"
+                    android:textSize="@dimen/resetpasscode_text_size" />
+
+                <RadioButton
+                    android:id="@+id/nonsmoking"
+                    style="@style/RadioButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Round trip"
+                    android:textSize="@dimen/resetpasscode_text_size" />
+
+
+
+            </rsvp.vishvendu.com.rsvp.Utils.SegmentedGroup>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_below="@+id/sqSmoking"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+        android:weightSum="5"
+        android:layout_above="@+id/llButtonLayout"
+        android:layout_below="@+id/regLabelText"
+        android:orientation="horizontal">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:hint="From"
+                android:id="@+id/firstName"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/departure"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/lastname"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:hint="To"
+                android:id="@+id/lastName"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#00AFF0"
+        android:layout_marginTop="1dp"
+        android:layout_height="100dp"
+        >
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:background="@color/grey_separator"
+            android:layout_height="match_parent"
+            android:id="@+id/card_view"
+            card_view:cardBackgroundColor="#00AFF0"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="5dp"
+            card_view:contentPaddingBottom="5dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="5dp"
+            >
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:weightSum="5"
+                android:layout_above="@+id/llButtonLayout"
+                android:layout_below="@+id/regLabelText"
+                android:orientation="horizontal">
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/arrival"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:hint="Departure"
+                        android:id="@+id/Arrivaldate"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/calendarsmall"
+                    />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/departure"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:hint="Return"
+                        android:id="@+id/departuredate"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#00AFF0"
+        android:layout_marginTop="1dp"
+        android:layout_height="100dp"
+        >
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:background="@color/grey_separator"
+            android:layout_height="match_parent"
+            android:id="@+id/card_view2"
+            card_view:cardBackgroundColor="#00AFF0"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="5dp"
+            card_view:contentPaddingBottom="5dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="5dp"
+            >
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:weightSum="5"
+                android:layout_above="@+id/llButtonLayout"
+                android:layout_below="@+id/regLabelText"
+                android:orientation="horizontal">
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/arrivaltime"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:hint="Arrival time on airpot"
+                        android:id="@+id/Arrivaltime"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/time"
+                    />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/departuretime"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:hint="Dept. time from Airpot"
+                        android:id="@+id/departuretimevenue"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#00AFF0"
+        android:layout_marginTop="1dp"
+        android:layout_height="100dp"
+        >
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:background="@color/grey_separator"
+            android:layout_height="match_parent"
+            android:id="@+id/card_view3"
+            card_view:cardBackgroundColor="#00AFF0"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="5dp"
+            card_view:contentPaddingBottom="5dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="5dp"
+            >
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:weightSum="5"
+                android:layout_above="@+id/llButtonLayout"
+                android:layout_below="@+id/regLabelText"
+                android:orientation="horizontal">
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/flightclass"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:hint="No of traveller"
+                        android:id="@+id/classtype"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/businessclass"
+                    />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/traveller"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:hint="Class"
+                        android:id="@+id/nooftraveller"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customborderforlayout"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_width="@dimen/common_0dp"
+            android:layout_height="@dimen/common_50dp"
+            android:background="@color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="1"
+            android:id="@+id/addMore"
+            android:textSize="@dimen/resetpasscode_text_size"
+            android:text="Skip"/>
+        <Button
+            android:layout_width="@dimen/common_0dp"
+            android:layout_height="@dimen/common_50dp"
+            android:id="@+id/flightproceed"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:textSize="@dimen/resetpasscode_text_size"
+            android:text="Next"/>
+    </LinearLayout>
+</RelativeLayout>
+</FrameLayout>

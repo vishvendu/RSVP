@@ -39,16 +39,20 @@
             android:fontFamily="sans-serif-medium"
             android:textSize="12dp"
             />
-
-        <EditText
-            android:layout_width="300dp"
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="match_parent"
             android:layout_centerHorizontal="true"
             android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
             android:id="@+id/mobilenumber"
-            android:hint=""
+            android:hint="Enter your phone number"
             android:padding="12dp"
             android:textColorHint="#ffffff"
             android:layout_height="50dp" />
+        </android.support.design.widget.TextInputLayout>
 
         <ImageButton
             android:layout_width="wrap_content"

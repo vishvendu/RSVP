@@ -2,4 +2,337 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="common_0dp">0dp</dimen>
+    <dimen name="common_1dp">1dp</dimen>
+    <dimen name="common_2dp">2dp</dimen>
+    <dimen name="common_3dp">3dp</dimen>
+    <dimen name="common_5dp">5dp</dimen>
+    <dimen name="common_10dp">10dp</dimen>
+    <dimen name="common_16dp">16dp</dimen>
+
+    <!--Login strings-->
+    <dimen name="login_login_icon_width">48dp</dimen>
+    <dimen name="login_login_icon_height">48dp</dimen>
+    <dimen name="login_login_text_height">12dp</dimen>
+    <dimen name="login_forgot_passcode_icon_height">36dp</dimen>
+    <dimen name="login_forgot_passcode_icon_width">30dp</dimen>
+    <dimen name="login_contact_us_icon_width">42dp</dimen>
+    <dimen name="login_icon_text_space">16dp</dimen>
+    <dimen name="login_image_top_space">15dp</dimen>
+    <dimen name="login_image_top_space_2">24dp</dimen>
+    <dimen name="login_banner_options_space">10dp</dimen>
+    <dimen name="login_bottom_space">8dp</dimen>
+    <!--Login strings-->
+
+
+
+
+    <dimen name="item_offset">10dp</dimen>
+    <dimen name="detail_backdrop_height">250dp</dimen>
+    <dimen name="backdrop_title">30dp</dimen>
+    <dimen name="backdrop_subtitle">18dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_album_radius">0dp</dimen>
+    <dimen name="album_cover_height">160dp</dimen>
+    <dimen name="album_title_padding">10dp</dimen>
+    <dimen name="album_title">15dp</dimen>
+    <dimen name="songs_count_padding_bottom">5dp</dimen>
+    <dimen name="songs_count">12dp</dimen>
+    <dimen name="ic_album_overflow_width">20dp</dimen>
+    <dimen name="ic_album_overflow_height">30dp</dimen>
+    <dimen name="ic_album_overflow_margin_top">10dp</dimen>
+
+
+
+    <!--LoginPasscode strings-->
+    <dimen name="loginpass_top_margin">16dp</dimen>
+    <dimen name="loginpass_top_margin_1">25dp</dimen>
+    <!--LoginPasscode strings-->
+
+    <!--Landing strings-->
+    <dimen name="landing_scb_logo_height">43dp</dimen>
+    <dimen name="landing_scb_logo_width">113dp</dimen>
+    <dimen name="landing_scb_logo_marginTop">29dp</dimen>
+    <!--<dimen name="landing_banner_height">165dp</dimen>-->
+    <dimen name="landing_banner_height">220dp</dimen>
+    <dimen name="landing_banner_width">238dp</dimen>
+    <dimen name="landing_banner_marginTop">30dp</dimen>
+    <dimen name="landing_pager_indicator_height">12dp</dimen>
+    <dimen name="landing_pager_indicator_height_8">4dp</dimen>
+    <dimen name="landing_pager_indicator_width">12dp</dimen>
+    <dimen name="landing_pager_indicator_width_8">8dp</dimen>
+    <dimen name="landing_pager_indicator_marginTop">18dp</dimen>
+    <dimen name="landing_login_in_text_marginTop">25dp</dimen>
+    <dimen name="landing_login_in_text_textSize">16dp</dimen>
+    <dimen name="landing_login_in_text_height">24dp</dimen>
+    <dimen name="landing_text_marginRight">30dp</dimen>
+    <dimen name="landing_edittext_spacing">20dp</dimen>
+    <dimen name="landing_forgot_password_spacing">30dp</dimen>
+    <dimen name="landing_social_marginBottom_spacing">70dp</dimen>
+    <dimen name="landing_social_marginTop_spacing">140dp</dimen>
+    <dimen name="landing_social_cancel_spacing">62dp</dimen>
+    <!--Landing strings-->
+
+    <!--SecurityQuestion-->
+    <dimen name="linked_account_spacing">56dp</dimen>
+    <!--SecurityQuestion-->
+
+    <!--SecurityQuestion-->
+    <dimen name="security_spacing">46dp</dimen>
+    <!--SecurityQuestion-->
+
+    <!--Pin Enter-->
+    <dimen name="button_height_width">69dp</dimen>
+    <dimen name="button_pinenter_between_space">20dp</dimen>
+    <dimen name="button_right_left_space">40dp</dimen>
+    <dimen name="button_bottom_space">20dp</dimen>
+    <dimen name="button_bottom_padding">8dp</dimen>
+    <!--Pin Enter-->
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--Registration Screen Dimens-->
+    <dimen name="registration_text_size">16sp</dimen>
+    <dimen name="registration_top_bottom_margin">14.667dp</dimen>
+    <dimen name="registration_button_proceed_height">53.333dp</dimen>
+    <dimen name="registration_edittext_text_size">16sp</dimen>
+    <dimen name="registration_pager_top_margin">16dp</dimen>
+    <dimen name="registration_field_item_margin">23.5dp</dimen>
+    <dimen name="registration_field_edittext_margin_top">16dp</dimen>
+    <dimen name="registration_pin_margin_top">23.5dp</dimen>
+    <dimen name="registration_pin_margin_top_1">16dp</dimen>
+    <dimen name="registration_field_text_margin">8dp</dimen>
+    <dimen name="registration_pin_label_margin_top">44dp</dimen>
+    <dimen name="registration_fingerprintlabel_margin_top">52dp</dimen>
+    <dimen name="registration_fingerprintimage_margin_top">18dp</dimen>
+    <dimen name="registration_fingerprintimage_margin_right">18dp</dimen>
+    <dimen name="registration_pin_width">38dp</dimen>
+    <dimen name="registration_spinner_margin_top">5dp</dimen>
+    <dimen name="registration_spinner_height">24dp</dimen>
+    <dimen name="registration_spinner_padding_bottom">13.33dp</dimen>
+    <dimen name="registration_answer_margin_top">23.5dp</dimen>
+    <dimen name="registration_checkbox_margin_right">12dp</dimen>
+    <dimen name="registration_dialog_margin_top">20dp</dimen>
+    <dimen name="registration_dialog_side_margin">20dp</dimen>
+    <dimen name="registration_dialog_bottom_margin">20dp</dimen>
+    <dimen name="registration_dialog_image">66.67dp</dimen>
+    <dimen name="registration_dialog_text_size">30.67dp</dimen>
+    <dimen name="registration_dialog_label_margin_top">26dp</dimen>
+
+    <!--ResetPasscode-->
+    <dimen name="resetpasscode_intro_image_top_margin">70.67dp</dimen>
+    <dimen name="resetpasscode_label_top_margin">71.33dp</dimen>
+    <dimen name="resetpasscode_message_top_margin">36dp</dimen>
+    <dimen name="resetpasscode_message_failure_top_margin">24dp</dimen>
+    <dimen name="resetpasscode_image_size">83.33dp</dimen>
+    <dimen name="resetpasscode_label_text_size">32.67dp</dimen>
+    <dimen name="resetpasscode_text_size">16sp</dimen>
+    <dimen name="resetpasscode_margin">20dp</dimen>
+    <dimen name="resetpasscode_dialog_image_margin_top">52.67dp</dimen>
+    <dimen name="resetpasscode_dialog_label_margin_top">20.33dp</dimen>
+
+    <!--ManageMPIN-->
+    <dimen name="manage_mpin_margin_top">17dp</dimen>
+    <dimen name="manage_mpin_success_margin_top">115dp</dimen>
+    <!--ManageMPIN-->
+
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+    <dimen name="radio_button_stroke_border">1dp</dimen>
+
+    <!--EditPaymentAddress-->
+    <dimen name="qr_image_height_width">140dp</dimen>
+    <dimen name="overview_poster">200dp</dimen>
+
+    <!--MyAccount-->
+    <dimen name="account_dashboard_height">300dp</dimen>
+    <dimen name="account_header_margin">28dp</dimen>
+    <dimen name="account_common_text_size">16sp</dimen>
+    <dimen name="account_drawable_padding">10dp</dimen>
+    <dimen name="account_text_margin_top">26dp</dimen>
+    <dimen name="account_separator_height">1.33dp</dimen>
+    <dimen name="account_separator_margin_top">20dp</dimen>
+    <dimen name="account_image_margin_top">45dp</dimen>
+    <dimen name="account_image_size">125dp</dimen>
+    <dimen name="account_name_margin_top">32dp</dimen>
+    <dimen name="account_name_text_size">16sp</dimen>
+    <dimen name="account_number_margin_top">8dp</dimen>
+    <dimen name="account_last_login_text_size">12sp</dimen>
+    <dimen name="account_last_login_margin_top">16dp</dimen>
+    <dimen name="account_mobile_number_text_size">16sp</dimen>
+    <!--MyAccount-->
+
+    <!--DashBoard-->
+    <dimen name="dashboard_bg_height">300dp</dimen>
+    <dimen name="dashboard_image_size">66dp</dimen>
+    <dimen name="dashboard_image_margin_top">24dp</dimen>
+    <dimen name="dashboard_name_top_margin">18dp</dimen>
+    <dimen name="dashboard_header_height">215dp</dimen>
+    <dimen name="dashboard_name_text_size">20sp</dimen>
+    <dimen name="dashboard_number_margin_top">8dp</dimen>
+    <dimen name="dashboard_mobile_number_text_size">16sp</dimen>
+    <dimen name="dashboard_last_login_margin_top">18dp</dimen>
+    <dimen name="dashboard_last_login_text_size">12sp</dimen>
+    <dimen name="dashboard_parent_ll_margin">8dp</dimen>
+    <dimen name="dashboard_inner_ll_padding">8dp</dimen>
+    <dimen name="dashboard_icon_padding">16dp</dimen>
+    <!--DashBoard-->
+
+    <!--NavigationDrawer-->
+    <dimen name="nav_image_size">65dp</dimen>
+    <dimen name="nav_logout_button_width">320dp</dimen>
+    <dimen name="nav_logout_button_height">50dp</dimen>
+    <dimen name="nav_logout_button_text_size">16sp</dimen>
+    <dimen name="nav_header_height">120dp</dimen>
+    <dimen name="nav_header_name_margin_top">40dp</dimen>
+    <!--NavigationDrawer-->
+
+    <!--PaymentConfirmationFragment-->
+    <dimen name="pay_conf_header_text_size">16sp</dimen>
+    <dimen name="pay_conf_header_text_size_18">18sp</dimen>
+    <dimen name="pay_conf_header_padding">16dp</dimen>
+    <dimen name="pay_conf_text_size">16sp</dimen>
+    <dimen name="pay_conf_text_padding">8dp</dimen>
+    <dimen name="pay_conf_text_padding_left">16dp</dimen>
+    <dimen name="pay_conf_terms_margin_top">16dp</dimen>
+    <!--PaymentConfirmationFragment-->
+
+    <!--SuccessFragment-->
+    <dimen name="success_opacity_margin">24dp</dimen>
+    <dimen name="success_drawable_padding">26dp</dimen>
+    <dimen name="suceess_text_size">30sp</dimen>
+    <dimen name="success_msg_padding_top">26dp</dimen>
+    <dimen name="success_msg_text_size">16sp</dimen>
+    <dimen name="success_msg_margin">60dp</dimen>
+    <dimen name="common_30dp">30dp</dimen>
+    <dimen name="common_40dp">40dp</dimen>
+    <dimen name="common_50dp">50dp</dimen>
+    <dimen name="common_20dp">20dp</dimen>
+    <dimen name="common_25dp">25dp</dimen>
+    <!--SuccessFragment-->
+
+    <!--SnoozeSettingsFragment-->
+    <dimen name="snooze_opacity_margin">24dp</dimen>
+    <dimen name="snooze_icon_margin_top">90dp</dimen>
+    <dimen name="snooze_icon_padding_top">60dp</dimen>
+    <dimen name="snooze_date_margin">30dp</dimen>
+    <dimen name="snooze_ed_margin_left_right">30dp</dimen>
+    <!--SnoozeSettingsFragment-->
+
+    <!--PaymentAcceptedFragment-->
+    <dimen name="pay_accepted_icon_margin_top">98dp</dimen>
+    <dimen name="pay_accept_header_margin_top">26dp</dimen>
+    <dimen name="pay_accepted_margin_left_right">60dp</dimen>
+    <dimen name="pay_accepted_header_text_size">16sp</dimen>
+    <dimen name="pay_accepted_name_margin_top">33dp</dimen>
+    <dimen name="pay_accepted_name_margin_top_2">25dp</dimen>
+    <dimen name="pay_accepted_common_padding_name">4dp</dimen>
+    <dimen name="pay_accepted_info_margin_top">33dp</dimen>
+    <dimen name="pay_accepted_info_margin_left_right">8dp</dimen>
+
+    <!--PaymentAcceptedFragment-->
+
+    <!--EditBeneficiary-->
+    <dimen name="dividerHeight">-20dp</dimen>
+    <dimen name="account_type">12sp</dimen>
+    <dimen name="dashboard_header_background_height">220dp</dimen>
+    <!--EditBeneficiary-->
+    <!--PayActivity-->
+    <dimen name="pay_grid_margin_top">20.66dp</dimen>
+    <dimen name="pay_icon_top_margin">62dp</dimen>
+    <dimen name="pay_card_width">263.33dp</dimen>
+    <dimen name="pay_card_height">143.33dp</dimen>
+    <dimen name="dashboard_content_image_padding">22dp</dimen>
+    <dimen name="dashboard_content_text_size">12sp</dimen>
+    <dimen name="nav_drawer_width">320dp</dimen>
+    <dimen name="nav_drawer_image_margin_top_bottom">26dp</dimen>
+    <dimen name="nav_drawer_image_left_margin">21dp</dimen>
+    <dimen name="nav_drawer_profile_name_margin_left">16dp</dimen>
+    <dimen name="nav_drawer_number_margin_bottom">40dp</dimen>
+    <dimen name="nav_drawer_number_margin_left">16dp</dimen>
+    <dimen name="nav_drawer_edit_icon_margin_left">5dp</dimen>
+    <dimen name="nav_drawer_edit_icon_padding">5dp</dimen>
+    <dimen name="pay_conf_padding_top">33dp</dimen>
+    <dimen name="pay_conf_divider_margin_top">26dp</dimen>
+    <dimen name="pay_conf_divider_height">2dp</dimen>
+    <dimen name="pay_conf_header_margin_bottom">26dp</dimen>
+    <dimen name="common_18dp">18dp</dimen>
+    <dimen name="pay_request_expiry_margin_top">26.67dp</dimen>
+    <dimen name="padding_negation">-16dp</dimen>
+    <dimen name="pay_reques_dialog_margin_top">40dp</dimen>
+    <dimen name="pay_request_dialog_margin_left_righ">22dp</dimen>
+    <dimen name="pay_request_dialog_margin_bottom">26dp</dimen>
+    <dimen name="pay_conf_payee_name_text_size">16sp</dimen>
+    <dimen name="snooze_setting_text_size">16sp</dimen>
+    <dimen name="snooze_text_margin_top">51dp</dimen>
+    <dimen name="snooze_time_text_margin_top">33dp</dimen>
+    <dimen name="nfc_frag_image_height">86dp</dimen>
+    <dimen name="nfc_frag_image_width">61.33dp</dimen>
+    <dimen name="success_done_margin_top">58dp</dimen>
+    <dimen name="success_header_margin_top">33dp</dimen>
+    <dimen name="success_text_margin_top">13dp</dimen>
+    <dimen name="success_icon_margin_top">170dp</dimen>
+    <dimen name="generate_qr_header_margin_top">21dp</dimen>
+    <dimen name="generate_qr_text_margin_top">33dp</dimen>
+    <dimen name="generate_qr_margin_two_ele">15dp</dimen>
+    <dimen name="generate_qr_success_margin_top">58dp</dimen>
+    <dimen name="generate_qr_success_msg_margin_top">26dp</dimen>
+    <dimen name="generate_qr_image_margin_top">36dp</dimen>
+    <dimen name="generate_qr_share_margin_top">26dp</dimen>
+    <dimen name="complaints_image_margin_top">100dp</dimen>
+    <dimen name="complaints_text_margin_top">32dp</dimen>
+    <dimen name="complaints_toggle_margin_top">16dp</dimen>
+    <dimen name="complaints_drawable_padding">10dp</dimen>
+    <dimen name="complaints_text_padding">16dp</dimen>
+    <dimen name="complaints_seperator_height">2dp</dimen>
+    <dimen name="complaints_seperator_margin">16dp</dimen>
+    <dimen name="other_transaction_segmented_margin_top">21.33dp</dimen>
+    <dimen name="create_payment_address_image_margin_top">120dp</dimen>
+    <dimen name="create_payment_address_image_padding">16dp</dimen>
+    <dimen name="create_pay_add_header_margin_top">32dp</dimen>
+    <dimen name="create_pay_add_header_text_size">32sp</dimen>
+    <dimen name="create_pay_add_text_margin">24dp</dimen>
+    <dimen name="create_pay_add_text_size">16sp</dimen>
+    <dimen name="create_payment_address_button_height">50dp</dimen>
+    <dimen name="vps_succ_image_margin_top">80dp</dimen>
+    <dimen name="vpa_sccess_margin_left_right">16dp</dimen>
+    <dimen name="vpa_success_msg_margin_left_right">20dp</dimen>
+    <dimen name="vap_note_header_text_size">18sp</dimen>
+    <dimen name="complaint_image_margin_top">100dp</dimen>
+    <dimen name="complaint_msg_margin_left_right">16dp</dimen>
+    <dimen name="transaction_id_text_size">16sp</dimen>
+    <dimen name="transaction_id_margin_top">75dp</dimen>
+    <dimen name="enter_transaction_image_size">58dp</dimen>
+    <dimen name="enter_transaction_image_margin_top">61dp</dimen>
+    <dimen name="describtion_text_margin_top">26dp</dimen>
+    <dimen name="review_transaction_margin_top">23dp</dimen>
+    <dimen name="review_seperator_margin_top">26dp</dimen>
+    <dimen name="review_text_size">16sp</dimen>
+    <dimen name="review_header_margin_top">33dp</dimen>
+    <dimen name="common_12dp">12dp</dimen>
+    <dimen name="common_7dp">7dp</dimen>
+    <dimen name="common_14dp">14dp</dimen>
+    <dimen name="contactus_image_top">73.33dp</dimen>
+    <dimen name="contactus_image_width">68.67dp</dimen>
+    <dimen name="contactus_image_height">77dp</dimen>
+    <dimen name="contact_us_segmented_group_width">157dp</dimen>
+    <dimen name="common_6dp">6dp</dimen>
+    <dimen name="new_margin_confirm">16dp</dimen>
+    <dimen name="new_header_size">18sp</dimen>
+    <dimen name="common_210dp">210dp</dimen>
+    <dimen name="common_55dp">55dp</dimen>
+    <dimen name="bill_desk_image_width">59dp</dimen>
+    <dimen name="bill_desk_image_height">66dp</dimen>
+    <dimen name="bill_desk_image_margin_top">33dp</dimen>
+    <dimen name="bill_desk_text_margin_top">33dp</dimen>
+    <dimen name="bill_desk_grid_margin_top">20dp</dimen>
+    <dimen name="common_8dp">8dp</dimen>
+    <dimen name="common_15dp">15dp</dimen>
+    <dimen name="myfinancesetting_text_size">12dp</dimen>
+    <dimen name="reminder_text_size">16sp</dimen>
+    <dimen name="reminder_msg_margin">30dp</dimen>
+    <dimen name="duedatespinner">22dp</dimen>
+    <dimen name="spinnerwidthduedate">250dp</dimen>
+    <dimen name="account_name_leftside">16dp</dimen>
+    <dimen name="dashboardData">20dp</dimen>
 </resources>

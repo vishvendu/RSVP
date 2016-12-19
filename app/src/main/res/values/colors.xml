@@ -1,9 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>-->
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#52A7B9</color>
-    <color name="colorAccent">#ffffff</color>
 
-    <color name="startColorgradient">#52A7B9</color>
-    <color name="endcolorgradient">#7EE1DC</color>
+    <color name="colorPrimaryDark">#0097CB</color>
+
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorToolbarView">#53b0e9</color>
+    <color name="indicatorGreyColor">#919191</color>
+    <color name="indicatorBlueColor">#02b8f8</color>
+
+    <!--Landing Colors-->
+    <color name="landing_login_in_text_color">#0285d4</color>
+    <color name="landing_banner_indicator">#0285d4</color>
+    <color name="pin_button_border">#d7d7d7</color>
+
+    <!--StepIndicator Colors-->
+    <color name="current_step_default">#ffffff</color>
+    <color name="text_default">#000000</color>
+    <color name="secondary_text_default">#ffffff</color>
+    <color name="step_color">#02b8f8</color>
+
+
+    <!--General-->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_opecity">#25000000</color>
+    <color name="grey">#a9a9a9</color>
+    <color name="light_grey">#d2d2d2</color>
+
+    <!--Registration-->
+    <color name="button_proceed_color">#6ac075</color>
+    <color name="button_previous_color">#353738</color>
+    <color name="dialog_transparency">#BB000000</color>
+
+    <!--ManageProfile-->
+    <color name="black_transpaent">#50000000</color>
+    <color name="black_transparent">#90000000</color>
+    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_unselected_color">#e0e0e0</color>
+
+    <!--LinkAccount-->
+    <color name="link_account_or">#0086db</color>
+    <color name="grey_separator">#eeeeee</color>
+    <!--LinkAccount-->
+
+    <color name="menu_item_color_grey">#919191</color>
+    <color name="red">#F63F48</color>
 </resources>

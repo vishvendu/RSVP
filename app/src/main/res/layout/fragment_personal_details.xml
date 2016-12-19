@@ -1,0 +1,273 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="rsvp.vishvendu.com.rsvp.Onboarding.Module.Fragment.PersonalDetailsFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="#00AFF0"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+        android:weightSum="4"
+        android:layout_above="@+id/llButtonLayout"
+        android:layout_below="@+id/regLabelText"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:hint="First Name"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:hint="Last Name"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+        android:weightSum="5"
+        android:layout_above="@+id/llButtonLayout"
+        android:layout_below="@+id/regLabelText"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:hint="Age"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_weight="3"
+
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:layout_height="wrap_content"
+                android:text="Male"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"/>
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+
+        android:layout_above="@+id/llButtonLayout"
+        android:layout_below="@+id/regLabelText"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:hint="Email Id"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+
+        android:layout_above="@+id/llButtonLayout"
+        android:layout_below="@+id/regLabelText"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:hint="Medical Condition"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+
+        android:layout_above="@+id/llButtonLayout"
+        android:layout_below="@+id/regLabelText"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:hint="No of people"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+        android:weightSum="4"
+        android:layout_above="@+id/llButtonLayout"
+        android:layout_below="@+id/regLabelText"
+        android:orientation="horizontal">
+
+        <rsvp.vishvendu.com.rsvp.Utils.SegmentedGroup
+            android:id="@+id/sgMyFinances"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/rbMultipleTime"
+            android:orientation="horizontal"
+            segmentedgroup:sc_border_width="2dp"
+            segmentedgroup:sc_checked_text_color="@color/white"
+            segmentedgroup:sc_corner_radius="5dp"
+            segmentedgroup:sc_tint_color="@color/colorPrimaryDark"
+            segmentedgroup:sc_unchecked_tint_color="@color/white">
+
+            <RadioButton
+                android:id="@+id/rbSpends"
+                style="@style/RadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Veg"
+                android:textSize="@dimen/resetpasscode_text_size" />
+
+            <RadioButton
+                android:id="@+id/rbRemainder"
+                style="@style/RadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nonveg"
+                android:textSize="@dimen/resetpasscode_text_size" />
+
+            <RadioButton
+                android:id="@+id/rbOffers"
+                style="@style/RadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Both"
+                android:textSize="@dimen/resetpasscode_text_size" />
+
+        </rsvp.vishvendu.com.rsvp.Utils.SegmentedGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+        android:weightSum="4"
+        android:layout_above="@+id/llButtonLayout"
+        android:layout_below="@+id/regLabelText"
+        android:orientation="horizontal">
+
+        <rsvp.vishvendu.com.rsvp.Utils.SegmentedGroup
+            android:id="@+id/sqSmoking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/rbMultipleTime"
+            android:orientation="horizontal"
+            segmentedgroup:sc_border_width="2dp"
+            segmentedgroup:sc_checked_text_color="@color/white"
+            segmentedgroup:sc_corner_radius="5dp"
+            segmentedgroup:sc_tint_color="@color/colorPrimaryDark"
+            segmentedgroup:sc_unchecked_tint_color="@color/white">
+
+            <RadioButton
+                android:id="@+id/smoking"
+                style="@style/RadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Smoking Room"
+                android:textSize="@dimen/resetpasscode_text_size" />
+
+            <RadioButton
+                android:id="@+id/nonsmoking"
+                style="@style/RadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="No-Smoking Room"
+                android:textSize="@dimen/resetpasscode_text_size" />
+
+
+
+        </rsvp.vishvendu.com.rsvp.Utils.SegmentedGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+        android:weightSum="4"
+        android:layout_above="@+id/llButtonLayout"
+        android:layout_below="@+id/regLabelText"
+        android:orientation="horizontal">
+
+        <rsvp.vishvendu.com.rsvp.Utils.SegmentedGroup
+            android:id="@+id/kids"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/rbMultipleTime"
+            android:orientation="horizontal"
+            segmentedgroup:sc_border_width="2dp"
+            segmentedgroup:sc_checked_text_color="@color/white"
+            segmentedgroup:sc_corner_radius="5dp"
+            segmentedgroup:sc_tint_color="@color/colorPrimaryDark"
+            segmentedgroup:sc_unchecked_tint_color="@color/white">
+
+            <RadioButton
+                android:id="@+id/no"
+                style="@style/RadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="With Kids"
+                android:textSize="@dimen/resetpasscode_text_size" />
+
+            <RadioButton
+                android:id="@+id/yes"
+                style="@style/RadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Without Kids"
+                android:textSize="@dimen/resetpasscode_text_size" />
+
+
+
+        </rsvp.vishvendu.com.rsvp.Utils.SegmentedGroup>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepIndicator">
+        <attr name="siStepCount" format="integer" />
+        <attr name="siRadius" format="dimension" />
+        <attr name="siStrokeWidth" format="dimension" />
+        <attr name="siStepColor" format="color" />
+        <attr name="siCurrentStepColor" format="color" />
+        <attr name="siBackgroundColor" format="color" />
+        <attr name="siTextColor" format="color" />
+        <attr name="siSecondaryTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+    <declare-styleable name="PinEntryView">
+        <!-- The number of digits in the pin -->
+        <attr name="numDigits" format="integer" />
+        <attr name="isFocused" format="boolean" />
+        <!-- Digit dimensions, default 50dp x 50dp -->
+        <attr name="digitWidth" format="dimension" />
+        <attr name="digitHeight" format="dimension" />
+        <!-- Spacing between the pin boxes, default 20dp -->
+        <attr name="digitSpacing" format="dimension" />
+        <!-- Digit background, colour or drawable -->
+        <attr name="digitBackground" format="reference|color" />
+        <!-- Font size to use for the mask text, default 15sp -->
+        <attr name="digitTextSize" format="dimension" />
+        <!-- Colour of the mask text, defaults to theme textColorPrimary -->
+        <attr name="digitTextColor" format="color" />
+        <!-- Digit elevation (API 21+ only), default 0dp -->
+        <attr name="digitElevation" format="dimension" />
+        <!-- The character to use to mask the input -->
+        <attr name="mask" format="string" />
+        <!-- Accent color, defaults to theme colorAccent -->
+        <attr name="pinAccentColor" format="color" />
+        <!-- Accent width, default 3dp -->
+        <attr name="accentWidth" format="dimension" />
+        <!-- Accent type, default 'character' -->
+        <attr name="accentType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="all" value="1" />
+            <enum name="character" value="2" />
+        </attr>
+        <!-- Input type -->
+        <attr name="pinInputType" format="enum">
+            <enum name="text" value="1" />
+            <enum name="number" value="2" />
+        </attr>
+        <!-- Only draw accent when View has focus -->
+        <attr name="accentRequiresFocus" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SegmentedGroup">
+        <attr name="sc_corner_radius" format="dimension" />
+        <attr name="sc_border_width" format="dimension" />
+        <attr name="sc_tint_color" format="color" />
+        <attr name="sc_checked_text_color" format="color" />
+        <attr name="sc_unchecked_tint_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="AwesomeRadioButton">
+        <attr name="awesome_text" format="string" />
+    </declare-styleable>
+
+    <!--Sticky Scroll-->
+    <declare-styleable name="StickyScrollView">
+        <attr name="stuckShadowHeight" format="dimension" />
+        <attr name="stuckShadowDrawable" format="reference" />
+    </declare-styleable>
+    <!--Sticky Scroll-->
+
+</resources>

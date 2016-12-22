@@ -39,7 +39,7 @@
     <Spinner
         android:id="@+id/spnPayeePaymentAddress"
         style="@style/Widget.AppCompat.Spinner.Underlined"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/registration_spinner_margin_top"
         android:gravity="center"
@@ -47,7 +47,6 @@
     <android.support.design.widget.TextInputLayout
         android:id="@+id/input_layout_password"
         android:layout_width="300dp"
-        android:layout_gravity="center"
         android:layout_marginTop="@dimen/common_30dp"
         android:layout_height="wrap_content">
     <EditText
